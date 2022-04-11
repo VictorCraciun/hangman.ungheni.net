@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ro">
+    <head>
+        <meta charset="utf-8">
+        <title> Joc Spânzurătoare </title>
+        <link href="style.css"rel="stylesheet">
+    </head>
+    <body>
+    <img id="image" src="images\hangman00.jpg" class="card-img-top" alt = "Hangman" style = "width:125px;height:135px;">
+    <h1>Hangman GAME</h1>
+    <h4>life <div id="life"> 7 </div> </h4>
+    <h1 id="message"></h1>
+    <table style = "width:100%">
+        <tr>
+            <th>
+                <p> <p> Put your WORD:
+                <input type="search" name="word_input" id="wordInput">
+                <button id="playButton" onclick="startGame()" type="submit" class="btn btn-dark">Play</button>
+                <p> <p>
+                <div id="displayButtonsLetter"> </div>
+                <p> <p>
+            </th>
+        </tr>
+    </table>
+    <footer align="center">&copy;Copyright 2022 Crăciun Victor</footer>
+    <p> This is my mini project for WellCode </p>
+    <p> I hope you enjoy playing! </p>
+    <script src="index.js"></script>
+    </body>
+</html>
